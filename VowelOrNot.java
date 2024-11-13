@@ -2,7 +2,7 @@
 
 	public static void main(String[] args) {
 		Scanner scanner = new(System.in);
-		System.out.print("Enter an alphabet: ");
+		System.out.print("Enter an alphabet: change ");
         char ch = scanner.next().charAt(0);
        
         switch (Character.toLowerCase(ch)) {
